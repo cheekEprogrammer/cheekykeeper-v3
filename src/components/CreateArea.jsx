@@ -50,6 +50,7 @@ function CreateArea(props) {
 
         <textarea
           name="content"
+          width="100%"
           onClick={expand}
           onChange={handleChange}
           value={note.content}
